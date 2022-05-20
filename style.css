@@ -203,7 +203,9 @@ span {
 .footer-finish {
   text-align: center;
   color: white;
+  font-family: var(--font1M);
 }
+
 
 .footer-finish:hover {
   color: greenyellow;
