@@ -50,6 +50,7 @@ nav ul {
 }
 
 nav a {
+  display: block;
   font-family: var(--font1M);
   text-decoration: none;
   color: white;
@@ -278,6 +279,54 @@ h3:hover {
     gap: 2rem;
   }
 }
+
+#btn-mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    width: 20%;
+  }
+}
+
+
+#btn-mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #btn-mobile {
+    display: block;
+  }
+  #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    transition: .6s;
+    height: 0px;
+    right: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+    background-color: black;
+    z-index: 1000;
+    
+  }
+  #nav.active #menu {
+    visibility: visible;
+    overflow-y: auto;
+    height: calc(100vh - 80px)
+
+  }
+
+  #menu a {
+    padding: 2rem 0;
+    margin: 0 1rem;
+  }
+
+}
+
 
 
 
