@@ -34,7 +34,6 @@ header {
   background-color: black;
   position: fixed;
   top: 0;
-  
 }
 
 nav{
@@ -59,7 +58,6 @@ nav a {
 
 nav a:hover {
   color: greenyellow;
-  
 }
 
 .contact {
@@ -165,11 +163,9 @@ hr {
 
 .wrapp-skills img {
   width: 15%;
-  
 }
 
 #skills {
- 
   text-align: center;
 }
 
@@ -207,11 +203,63 @@ span {
   font-size: 1.5rem;
 }
 
-
 .footer-finish:hover {
   color: greenyellow;
 }
 
+@media (max-width: 682px) {
+  .text-top {
+    display: unset;
+  }
+}
+
+@media (max-width: 682px) {
+  .image-profile {
+    display: flex;
+    width: 60%;
+  }
+}
+
+@media (max-width: 420px) {
+  .image-profile {
+    display: flex;
+    width: 60%;
+  }
+}
+
+@media (max-width: 539px) {
+  nav > ul{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-text img {
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapp-text {
+    margin-top: 1.5rem;
+   margin-left: 8rem;
+   width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  hr {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-top p {
+    margin-top: 1rem;
+    width: 80%;
+  }
+}
 
 
 
