@@ -207,6 +207,10 @@ span {
   color: greenyellow;
 }
 
+h3:hover {
+  color: greenyellow;
+}
+
 @media (max-width: 682px) {
   .text-top {
     display: unset;
@@ -222,7 +226,6 @@ span {
 
 @media (max-width: 420px) {
   .image-profile {
-    display: flex;
     width: 60%;
   }
 }
@@ -236,30 +239,46 @@ span {
 
 @media (max-width: 480px) {
   .content-text img {
-    margin-left: 4rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
   }
 }
 
 @media (max-width: 480px) {
   .wrapp-text {
-    margin-top: 1.5rem;
-   margin-left: 8rem;
-   width: 100%;
+    margin-left: 10.5rem;
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .text-top p {
+    display: none;
+  }
+}
+
+
+@media (max-width: 480px) {
+  hr {
+    margin-top: 2rem;
   }
 }
 
 @media (max-width: 480px) {
-  hr {
+  .wrapp-section1 {
     width: 100%;
   }
 }
 
 @media (max-width: 480px) {
-  .text-top p {
-    margin-top: 1rem;
-    width: 80%;
+  .wrapp-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
 }
+
 
 
 
